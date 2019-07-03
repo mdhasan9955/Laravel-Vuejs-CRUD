@@ -38,15 +38,7 @@
               </select>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <label>Feature Image</label> 
-              <input type="file" class="form-control" v-on:change="onImageChange">
-            </div>
-          </div>
-        </div>
+        </div> 
         <br />
         <div class="form-group">
           <button class="btn btn-primary">Create</button>
