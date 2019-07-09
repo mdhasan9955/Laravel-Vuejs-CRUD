@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <ul class=" "> 
+      <ul class="router-link-admin"> 
         <li class="nav-item">
           <router-link to="/adminpanel/admin/post/create" class="nav-link">Create Post</router-link>
         </li>
@@ -24,7 +24,7 @@
 
 
 <style>
-    ul {
+    .router-link-admin {
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -35,15 +35,14 @@
       overflow: auto;
       min-height: 500px;
   }
+  .router-link-admin li { 
+    display: grid;
+  }
 
-li { 
-  display: grid;
-}
-
-a { 
-  padding: 8px;
-  background-color: #dddddd;
-}
+  .router-link-admin li a { 
+    padding: 8px;
+    background-color: #dddddd;
+  }
 </style>
 
 <script>

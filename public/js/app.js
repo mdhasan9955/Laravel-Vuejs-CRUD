@@ -1810,7 +1810,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -6634,7 +6633,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "\nul {\n      list-style-type: none;\n      margin: 0;\n      padding: 0;\n      width: 15%;\n      background-color: #ddd;\n      max-height: 500px;\n      position: fixed;\n      overflow: auto;\n      min-height: 500px;\n}\nli { \n  display: grid;\n}\na { \n  padding: 8px;\n  background-color: #dddddd;\n}\n", ""]);
+exports.push([module.i, "\n.router-link-admin {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n    width: 15%;\n    background-color: #ddd;\n    max-height: 500px;\n    position: fixed;\n    overflow: auto;\n    min-height: 500px;\n}\n.router-link-admin li { \n  display: grid;\n}\n.router-link-admin li a { \n  padding: 8px;\n  background-color: #dddddd;\n}\n", ""]);
 
 // exports
 
@@ -37876,7 +37875,7 @@ var render = function() {
         "nav",
         { staticClass: "navbar navbar-expand-sm bg-dark navbar-dark" },
         [
-          _c("ul", { staticClass: " " }, [
+          _c("ul", { staticClass: "router-link-admin" }, [
             _c(
               "li",
               { staticClass: "nav-item" },
